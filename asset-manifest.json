@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rahadianpanji.github.io/pullmoon/static/css/main.a617e044.chunk.css",
+    "main.js": "/rahadianpanji.github.io/pullmoon/static/js/main.1ca1c3e1.chunk.js",
+    "main.js.map": "/rahadianpanji.github.io/pullmoon/static/js/main.1ca1c3e1.chunk.js.map",
+    "runtime-main.js": "/rahadianpanji.github.io/pullmoon/static/js/runtime-main.03652688.js",
+    "runtime-main.js.map": "/rahadianpanji.github.io/pullmoon/static/js/runtime-main.03652688.js.map",
+    "static/js/2.7d9025a3.chunk.js": "/rahadianpanji.github.io/pullmoon/static/js/2.7d9025a3.chunk.js",
+    "static/js/2.7d9025a3.chunk.js.map": "/rahadianpanji.github.io/pullmoon/static/js/2.7d9025a3.chunk.js.map",
+    "static/js/3.cd05835c.chunk.js": "/rahadianpanji.github.io/pullmoon/static/js/3.cd05835c.chunk.js",
+    "static/js/3.cd05835c.chunk.js.map": "/rahadianpanji.github.io/pullmoon/static/js/3.cd05835c.chunk.js.map",
+    "index.html": "/rahadianpanji.github.io/pullmoon/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/rahadianpanji.github.io/pullmoon/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.7d9025a3.chunk.js.LICENSE.txt": "/rahadianpanji.github.io/pullmoon/static/js/2.7d9025a3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/rahadianpanji.github.io/pullmoon/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03652688.js",
+    "static/js/2.7d9025a3.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.1ca1c3e1.chunk.js"
+  ]
+}
