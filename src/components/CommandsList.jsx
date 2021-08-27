@@ -185,6 +185,11 @@ export const commandsList = [
                         param: null,
                         usageDesc: "See active alarms for that server or DM"
                     },
+                    // {
+                    //     usage: ".alarm delete",
+                    //     param: null,
+                    //     usageDesc: "Delete some active alarms"
+                    // },
                 ],
             },
             {
@@ -305,6 +310,22 @@ export const commandsList = [
                 ]
             },
             {
+                cmd: ".nonogram",
+                desc: "Play nonogram (picross) puzzle",
+                usages: [
+                    {
+                        usage: ".nonogram",
+                        param: null,
+                        usageDesc: "Play nonogram with 8x8 size",
+                    },
+                    {
+                        usage: ".nonogram",
+                        param: "[size]",
+                        usageDesc: "Play nonogram with customized size",
+                    },
+                ]
+            },
+            {
                 cmd: ".csn",
                 desc: "Play in casino to satisfy your gambling addiction",
                 usages: [
@@ -360,6 +381,11 @@ export const commandsList = [
                         usage: ".nhentai",
                         param: "[digit_code]",
                         usageDesc: "Get the preview of the hentai"
+                    },
+                    {
+                        usage: ".nhentai search",
+                        param: "[hentai title]",
+                        usageDesc: "Search nhentai for the requested title"
                     },
                     {
                         usage: ".nhentai tag",
