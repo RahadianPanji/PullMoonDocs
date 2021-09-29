@@ -61,6 +61,17 @@ export const commandsList = [
                 ],
             },
             {
+                cmd: ".redirect",
+                desc: "See where a link will redirect you to if you open it",
+                usages: [
+                    {
+                        usage: ".redirect",
+                        param: "[url]",
+                        usageDesc: null,
+                    }
+                ],
+            },
+            {
                 cmd: ".dice",
                 desc: "Roll a dice or some dices",
                 usages: [
@@ -162,6 +173,22 @@ export const commandsList = [
         title: "Productivity",
         body:   [
             {
+                cmd: ".stackoverflow",
+                desc: "Get questions related to your query from Stackoverflow (alternative command: .so)",
+                usages: [
+                    {
+                        usage: ".stackoverflow",
+                        param: "[your question]",
+                        usageDesc: null
+                    },
+                    {
+                        usage: ".so",
+                        param: "[your question]",
+                        usageDesc: null
+                    }
+                ],
+            },
+            {
                 cmd: ".alarm",
                 desc: "Set an alarm for PullMoon to remind you",
                 usages: [
@@ -240,7 +267,7 @@ export const commandsList = [
         title: "Website Searching",
         body:   [
             {
-                cmd: ".ig (Deprecated, PullMoon is banned by Instagram of accessing it too much)",
+                cmd: ".ig (Deprecated, banned from Instagram of accessing it too much)",
                 desc: "See the instagram profile of the given id",
                 usages: [
                     {
@@ -316,7 +343,7 @@ export const commandsList = [
                     {
                         usage: ".nonogram",
                         param: null,
-                        usageDesc: "Play nonogram with 8x8 size",
+                        usageDesc: "Play nonogram with 6x6 size",
                     },
                     {
                         usage: ".nonogram",
@@ -400,7 +427,7 @@ export const commandsList = [
                     {
                         usage: ".nhentai popular",
                         param: null,
-                        usageDesc: "Get 5 popular hentai's right now"
+                        usageDesc: "Get 5 popular hentais right now"
                     }
                 ]
             },
