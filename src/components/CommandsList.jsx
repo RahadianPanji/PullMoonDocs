@@ -61,6 +61,17 @@ export const commandsList = [
                 ],
             },
             {
+                cmd: ".bitly",
+                desc: "Shorten a URL with bit.ly",
+                usages: [
+                    {
+                        usage: ".bitly",
+                        param: "[url]",
+                        usageDesc: null,
+                    }
+                ],
+            },
+            {
                 cmd: ".redirect",
                 desc: "See where a link will redirect you to if you open it",
                 usages: [
