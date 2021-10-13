@@ -200,6 +200,17 @@ export const commandsList = [
                 ],
             },
             {
+                cmd: ".kbbi",
+                desc: "(Kamus Besar Bahasa Indonesia) Get the definition of a word",
+                usages: [
+                    {
+                        usage: ".kbbi",
+                        param: "[word]",
+                        usageDesc: null
+                    },
+                ],
+            },
+            {
                 cmd: ".alarm",
                 desc: "Set an alarm for PullMoon to remind you",
                 usages: [
