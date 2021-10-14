@@ -375,6 +375,11 @@ export const commandsList = [
                 ]
             },
             {
+                cmd: ".akinator",
+                desc: "Play a game of Akinator: Think about a person/character and the bot will guess who it is!",
+                usages: null
+            },
+            {
                 cmd: ".csn",
                 desc: "Play in casino to satisfy your gambling addiction",
                 usages: [
