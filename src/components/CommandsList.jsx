@@ -9,7 +9,7 @@ export const commandsList = [
             },
             {
                 cmd: ".invite",
-                desc: "Get the link to invite PullMoon to your server",
+                desc: "Get the url to invite PullMoon to your server",
                 usages: null,
             },
             {
@@ -24,7 +24,7 @@ export const commandsList = [
             },
             {
                 cmd: ".feedback",
-                desc: "Delete recent messages of PullMoon commands",
+                desc: "Give feedback to PullMoon creator",
                 usages: [
                     {
                         usage: ".feedback",
