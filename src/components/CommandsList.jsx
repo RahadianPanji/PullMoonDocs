@@ -39,6 +39,22 @@ export const commandsList = [
         title: "Random Utilities",
         body:   [
             {
+                cmd: ".steam",
+                desc: "Get release notification of a game",
+                usages: [
+                    {
+                        usage: ".steam notify release",
+                        param: "[steam_url]",
+                        usageDesc: "Set notification for when the game is released"
+                    },
+                    {
+                        usage: ".steam notify v1",
+                        param: "[steam_url]",
+                        usageDesc: "Set notification for when the game is version 1"
+                    },
+                ]
+            },
+            {
                 cmd: ".weather",
                 desc: "Get the real-time weather of the given city",
                 usages: [
